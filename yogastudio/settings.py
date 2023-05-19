@@ -93,11 +93,12 @@ WSGI_APPLICATION = 'yogastudio.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': '8may',
-        'PASSWORD': "1234",
-        'USER': "postgres",
-        'HOST': "localhost"
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'yogastudio',
+        'PORT':'5432',
+        'PASSWORD': "046Jt3QIka7TsVVS9uUxx6UxU6ybhJ9M",
+        'USER': "yogastudio_user",
+        'HOST': "dpg-chgjh4bhp8u065vpvsa0-a.oregon-postgres.render.com"
 
     }
 }
