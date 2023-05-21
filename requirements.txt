@@ -85,6 +85,7 @@ tzdata==2023.3
 tzlocal==5.0
 uritools==4.0.1
 urllib3==1.26.15
+opencv-python==4.7.0.72
 webencodings==0.5.1
 Werkzeug==2.3.4
 opencv-python-headless==4.7.0.72
